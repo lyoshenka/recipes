@@ -1,0 +1,20 @@
+# Automatically detect and normalize all text files (convert CRLF to LF; end-of-line conversion)
+*                    text=auto
+
+# Normalize markdown (text) files (convert CRLF to LF)
+*.md                 text
+*.mdown              text
+*.markdown           text
+
+# Images should be treated as binary (don't apply end-of-line conversions)
+*.png                binary
+*.jpg                binary
+*.svg binary
+
+# Exclude files from export (when using 'git archive' or Tower 'export')
+
+# Git
+.gitignore           export-ignore
+.gitattributes       export-ignore
+.gitmodules          export-ignore
+
