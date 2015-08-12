@@ -2,7 +2,14 @@
 
   <main class="main" role="main">
 
-    <h1><?php echo $page->title()->html() ?></h1>
+    <h1>
+      <?php echo $page->title()->html() ?>
+      <?php if ($page->russianName()): ?>
+        <span class="subtitle"><?php echo $page->russianName()->html() ?></span>
+      <?php endif ?>
+    </h1>
+
+    <p><?php echo $page->blurb()->html() ?></p>
 
     <ul class="meta cf">
       <li><b>Year:</b> <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date('Y', 'year') ?></time></li>
