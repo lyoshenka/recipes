@@ -1,16 +1,8 @@
-Main: 
-
-----
-
 Title: Pickled Cabbage
 
 ----
 
-Russianname: 
-
-----
-
-Writing: 
+Russianname: Квашеная Капуста
 
 ----
 
@@ -22,19 +14,11 @@ History:
 
 ----
 
-Cooking: 
-
-----
-
 Ingredients: 
 
 ----
 
 Instructions: 
-
-----
-
-Extras: 
 
 ----
 

@@ -7,6 +7,7 @@ password: >
 language: en
 role: admin
 history:
+  - recipes/pickled-cabbage
   - recipes/vinaigrette-salad
   - recipes/sirniki
   - recipes/borscht

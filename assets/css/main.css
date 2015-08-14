@@ -35,6 +35,12 @@ Email:  support@getkirby.com
   font-weight: 400;
   src: url(../fonts/sourcesanspro-400-italic.woff) format('woff');
 }
+@font-face {
+  font-family: 'Axis';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/axis.woff) format('woff');
+}
 
 
 /* Reset
@@ -66,10 +72,10 @@ img {
 a {
   color: #000;
   text-decoration: none;
-  transition: color .3s, background .3s, border .3s;
+  /*transition: color .3s, background .3s, border .3s;*/
 }
 a:hover {
-  color: red;
+  color: #F012BE;
 }
 
 
@@ -104,7 +110,7 @@ body {
 /* Header
 -------------------------------------------------- */
 .header {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #F012BE;
   margin-bottom: 1.5em;
 }
 .logo {
@@ -121,11 +127,11 @@ body {
   color: #222;
 }
 .menu a:hover {
-  color: red;
+  color: #F012BE;
   text-decoration: none;
 }
 .menu .active {
-  color: red;
+  color: #F012BE;
 }
 .menu li {
   list-style: none;
@@ -197,6 +203,16 @@ body {
 
 /* Headings
 -------------------------------------------------- */
+h1, h2, h3, h4, .recipe-name {
+  font-family: "Axis", sans-serif;
+}
+.recipe-name {
+  text-transform: uppercase;
+}
+.recipe-name a {
+  border: 0 !important;
+}
+
 h1 {
   font-size: 2em;
   line-height: 1.25em;
@@ -208,7 +224,7 @@ h2 {
   line-height: 1.25em;
   font-weight: 300;
   margin-bottom: .5em;
-  color: red;
+  color: #F012BE;
 }
 h3 {
   font-size: 1.4em;
@@ -221,7 +237,7 @@ h4 {
   font-weight: 600;
   line-height: 1.5em;
   margin-bottom: .5em;
-  color: red;
+  color: #F012BE;
 }
 h1 a, h2 a, h3 a, h4 a {
   color: inherit;
@@ -236,7 +252,7 @@ h1 a, h2 a, h3 a, h4 a {
 -------------------------------------------------- */
 .main {
   padding-bottom: 1.5em;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #F012BE;
 }
 .main hr {
   margin: 3em 0;
@@ -271,7 +287,7 @@ h1 a, h2 a, h3 a, h4 a {
   float: left;
   list-style: none;
   margin-right: 2em;
-  color: red;
+  color: #F012BE;
 }
 .meta li b {
   font-weight: 400;
@@ -280,23 +296,20 @@ h1 a, h2 a, h3 a, h4 a {
 }
 
 
-/* Project teaser
+/* Project recipes
 -------------------------------------------------- */
-.teaser {
+.recipes {
   list-style: none;
 }
-.teaser li {
+.recipes li {
   margin-bottom: 1.5em;
   list-style: none;
 }
 @media screen and (min-width: 50em) {
-  .teaser li {
+  .recipes li {
     float: left;
-    width: 30%;
-    margin-left: 5%;
-  }
-  .teaser li:first-child {
-    margin-left: 0;
+    width: 45%;
+    margin-right: 4%;
   }
 }
 
@@ -330,6 +343,6 @@ h1 a, h2 a, h3 a, h4 a {
   float: right;
 }
 .colophon a b {
-  color: red;
+  color: #FF4136;
   padding-left: .25em;
 }

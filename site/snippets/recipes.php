@@ -1,8 +1,8 @@
-<ul class="teaser cf">
+<ul class="recipes cf">
   <?php foreach(page('recipes')->children()->visible() as $recipe): ?>
   <li>
-    <h3><a href="<?php echo $recipe->url() ?>"><?php echo $recipe->title()->html() ?></a></h3>
-    <p><?php echo $recipe->text()->excerpt(80) ?> <a href="<?php echo $recipe->url() ?>">read&nbsp;more&nbsp;→</a></p>
+    <span class="recipe-name"><a href="<?php echo $recipe->url() ?>"><?php echo $recipe->title()->html() ?></a></span>
+    <p><?php // echo $recipe->blurb()->kirbytext() ?></p>
     <?php if($image = $recipe->images()->sortBy('sort', 'asc')->first()): ?>
     <a href="<?php echo $recipe->url() ?>">
       <img src="<?php echo $image->url() ?>" alt="<?php echo $recipe->title()->html() ?>" >
