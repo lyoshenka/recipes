@@ -1,46 +1,10 @@
-/*
 
-Kirby Starterkit
-
-Author: Bastian Allgeier / Sascha Lack
-URL:    http://getkirby.com
-Email:  support@getkirby.com
-
-*/
-
-
-/* Source Sans Pro
--------------------------------------------------- */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/sourcesanspro-300.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
+/*@font-face {
+  font-family: 'Sabon';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/sourcesanspro-400.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: url(../fonts/sourcesanspro-600.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400-italic.woff) format('woff');
-}
-@font-face {
-  font-family: 'Axis';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/axis.woff) format('woff');
-}
+  src: url(../fonts/Sabon-Roman.woff) format('woff');
+}*/
 
 
 /* Reset
@@ -70,12 +34,8 @@ img {
 /* Links
 -------------------------------------------------- */
 a {
-  color: #000;
+  color: #222;
   text-decoration: none;
-  /*transition: color .3s, background .3s, border .3s;*/
-}
-a:hover {
-  color: #F012BE;
 }
 
 
@@ -91,14 +51,11 @@ a:hover {
 /* Site
 -------------------------------------------------- */
 html {
-  height: 101%;
-  font-family: "Source Sans Pro", sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  /*font-family: "Sabon", serif;*/
+  font-family: 'Libre Baskerville', Baskerville, Georgia, serif;
 }
 body {
   margin: 0 auto;
-  font-size: 1.25em;
   line-height: 1.5em;
   padding: 1.5em;
   max-width: 50em;
@@ -109,9 +66,11 @@ body {
 
 /* Header
 -------------------------------------------------- */
-.header {
-  border-bottom: 2px solid #F012BE;
+header {
+  border-bottom: 2px solid #222;
+  padding-bottom: 1em;
   margin-bottom: 1.5em;
+  text-align: center;
 }
 .logo {
   display: block;
@@ -119,132 +78,31 @@ body {
   margin-bottom: 0.5em;
 }
 
-
-/* Navigation
--------------------------------------------------- */
-.menu a {
-  display: block;
-  color: #222;
-}
-.menu a:hover {
-  color: #F012BE;
-  text-decoration: none;
-}
-.menu .active {
-  color: #F012BE;
-}
-.menu li {
-  list-style: none;
-}
-.menu > li {
-  position: relative;
-}
-.menu > li > a {
-  padding: .35em 0;
-  border-top: 1px solid #ddd;
-  font-weight: 600;
-}
-
-.submenu {
-  position: absolute;
-  z-index: 1;
-  display: none;
-  left: 1em;
-}
-.submenu:before {
-  position: absolute;
-  z-index: -1;
-  content: '';
-  top: -.5em;
-  left: 0;
-  border-top: .5em solid transparent;
-  border-bottom: .5em solid transparent;
-  border-left: .5em solid #222;
-}
-.submenu li {
-  border-bottom: 1px solid #444;
-}
-.submenu a {
-  padding: .5em 1.5em;
-  font-size: .9em;
-  font-weight: 300;
-  color: #fff;
-  background: #222;
-  white-space: nowrap;
-}
-.submenu a:hover {
-  background: #333;
-  color: #fff;
-}
-
-@media screen and (min-width: 40em) {
-  body {
-    padding: 3em;
-  }
-  .logo {
-    float: left;
-  }
-  .menu {
-    float: right;
-    margin-right: -1em;
-  }
-  .menu > li {
-    float: left;
-  }
-  .menu > li > a {
-    padding: .35em 1em;
-    border: 0;
-  }
-  .menu > li:hover .submenu {
-    display: block;
-  }
-}
-
-
 /* Headings
 -------------------------------------------------- */
-h1, h2, h3, h4, .recipe-name {
-  font-family: "Axis", sans-serif;
-}
 .recipe-name {
   text-transform: uppercase;
-}
-.recipe-name a {
-  border: 0 !important;
 }
 
 h1 {
   font-size: 2em;
   line-height: 1.25em;
-  font-weight: 400;
   margin-bottom: .5em;
 }
 h2 {
-  font-size: 2em;
-  line-height: 1.25em;
-  font-weight: 300;
-  margin-bottom: .5em;
-  color: #F012BE;
-}
-h3 {
   font-size: 1.4em;
   line-height: 1.5em;
-  font-weight: 400;
   margin-bottom: .5em;
 }
-h4 {
-  font-size: 1.125em;
-  font-weight: 600;
+h3 {
+  font-size: 1.2em;
   line-height: 1.5em;
   margin-bottom: .5em;
-  color: #F012BE;
-}
-h1 a, h2 a, h3 a, h4 a {
-  color: inherit;
-  border: 0 !important;
 }
 .subtitle {
   color: #ccc;
+  margin-left: 5px;
+  text-transform: none;
 }
 
 
@@ -252,12 +110,7 @@ h1 a, h2 a, h3 a, h4 a {
 -------------------------------------------------- */
 .main {
   padding-bottom: 1.5em;
-  border-bottom: 2px solid #F012BE;
-}
-.main hr {
-  margin: 3em 0;
-  height: 2px;
-  background: #ddd;
+  border-bottom: 2px solid #222;
 }
 .main p,
 .main figure,
@@ -265,52 +118,32 @@ h1 a, h2 a, h3 a, h4 a {
 .main ol {
   margin-bottom: 1.5em;
 }
-.main a {
+/*.main a {
   border-bottom: 2px solid #ddd;
 }
 .main a:hover {
   border-color: #222;
 }
-
+*/
 /* Text blocks */
 .text ul,
 .text ol {
   margin-left: 1em;
 }
 
-/* Project meta
--------------------------------------------------- */
-.meta {
-  margin-bottom: 1.5em;
-}
-.meta li {
-  float: left;
-  list-style: none;
-  margin-right: 2em;
-  color: #F012BE;
-}
-.meta li b {
-  font-weight: 400;
-  color: #000;
-  padding-right: .25em;
-}
-
-
 /* Project recipes
 -------------------------------------------------- */
-.recipes {
+.recipe-list {
   list-style: none;
 }
-.recipes li {
+.recipe-list li {
   margin-bottom: 1.5em;
   list-style: none;
 }
-@media screen and (min-width: 50em) {
-  .recipes li {
-    float: left;
-    width: 45%;
-    margin-right: 4%;
-  }
+.recipe-list .recipe-blurb {
+  margin-top: 5px;
+  font-size: 0.8em;
+  color: #555;
 }
 
 
@@ -345,4 +178,31 @@ h1 a, h2 a, h3 a, h4 a {
 .colophon a b {
   color: #FF4136;
   padding-left: .25em;
+}
+
+
+/* Sexy Link Effect
+-------------------------------------------------- */
+.nicelink {
+  position: relative;
+  text-decoration: none;
+}
+.nicelink:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #222;
+  visibility: hidden;
+  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+}
+.nicelink:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
 }

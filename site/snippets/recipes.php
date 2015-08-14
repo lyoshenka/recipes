@@ -1,8 +1,11 @@
-<ul class="recipes cf">
+<ul class="recipe-list">
   <?php foreach(page('recipes')->children()->visible() as $recipe): ?>
   <li>
-    <span class="recipe-name"><a href="<?php echo $recipe->url() ?>"><?php echo $recipe->title()->html() ?></a></span>
-    <p><?php // echo $recipe->blurb()->kirbytext() ?></p>
+    <h3 class="recipe-name">
+      <a class="nicelink" href="<?php echo $recipe->url() ?>"><?php echo $recipe->title()->html() ?></a>
+      <span class="subtitle"><?php echo $recipe->russianName() ?></span>
+    </h3>
+    <div class="recipe-blurb"><?php echo $recipe->blurb()->kirbytext() ?></div>
     <?php if($image = $recipe->images()->sortBy('sort', 'asc')->first()): ?>
     <a href="<?php echo $recipe->url() ?>">
       <img src="<?php echo $image->url() ?>" alt="<?php echo $recipe->title()->html() ?>" >

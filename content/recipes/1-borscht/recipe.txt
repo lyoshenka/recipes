@@ -8,17 +8,56 @@ Blurb: A soup of Ukrainian origin that is common in Eastern and Central Europe, 
 
 History: 
 
+Borscht derives from a soup originally made by the Slavs from common hogweed (Heracleum sphondylium, also known as cow parsnip), which lent the dish its Slavic name (see Etymology above). Growing commonly in damp meadows throughout the temperate zone of Eurasia and North America, hogweed was used not only as fodder (as its English names suggest), but also for human consumption – from Eastern Europe to Siberia, to northwestern North America.[59][60]
+
+The Slavs collected hogweed in May and used its roots for stewing with meat,[10] while the stems, leaves and umbels were chopped, covered with water and left in a warm place to ferment. After a few days, lactic and alcoholic fermentation produced a mixture described as "something between beer and sauerkraut".[61] This concoction was then used for cooking a soup characterized by a mouth-puckering sour taste and pungent smell.[62] As the Polish ethnographer Łukasz Gołębiowski wrote in 1830, "Poles have been always partial to tart dishes, which are somewhat peculiar to their homeland and vital to their health."[p][63]
+
+The earliest written reference to the Slavic hogweed soup can be found in Domostroy (Domestic Order), a 16th-century Russian compendium of moral rules and homemaking advice. It recommends growing the plant "by the fence, around the whole garden, where the nettle grows", to cook a soup of it in springtime and reminds the reader to, "for the Lord's sake, share it with those in need."[12] Simon Syrenius (Szymon Syreński), a 17th century Polish botanist, described "our Polish hogweed"[q] as a vegetable that was well known throughout Poland, Rus', Lithuania and Samogitia (that is, most of the northern part of Eastern Europe), typically used for cooking a "tasty and graceful soup"[r] with capon stock, eggs, sour cream and millet. More interested in the plant's medicinal properties than its culinary use, he also recommended pickled hogweed juice as a cure for fever or hangover.[64]
+
+Hogweed borscht was mostly a poor man's food. The soup's humble beginnings are still reflected in Polish fixed expressions, where "as cheap as borscht"[s] is the equivalent of "dirt cheap" (also attested as a calque in Yiddish),[65] whereas adding "two mushrooms into borscht"[t] is synonymous with excess.[66] For the professors of the University of Kraków, who led a monastic way of life in the 17th century, hogweed borscht was a fasting dish which they ate regularly (sometimes with deviled eggs) from Lent till Rogation days.[67] It was uncommon on the royal table,[10] although according to the 16th-century Polish botanist Marcin of Urzędów – citing Giovanni Manardo, a court physician to the Jagiellonian kings of Hungary – the Polish-born King Vladislaus II used to have a Polish hogweed-based dish prepared for him at his court in Buda.[68]
+
 ----
 
 Ingredients: 
+
+1 lb Beef: sirloin, stew meat, or whatever kind of beef you like, really (bone-in or boneless *see note)
+1 Tbsp salt + more to taste
+2 large or 3 medium beets, washed, peeled and grated
+4 Tbsp olive oil
+1 Tbsp vinegar
+1 Tbsp sugar
+2 Tbsp tomato sauce, or paste (or 3 Tbsp ketchup)
+1 Tbsp butter
+1 medium onion, finely diced
+2 carrots, grated
+2 large or 3 medium potatoes, peeled and sliced into bite-sized pieces
+1/2 head of small cabbage, sliced
+2 tomatoes, peeled and diced (**see note)
+2 bay leaves
+1/4 tsp freshly ground pepper
+1/4 cup chopped fresh parsley + more for garnish
+2 cloves garlic, pressed
+Garnish: Sour cream and fresh sprigs of parsley or dill.
 
 ----
 
 Instructions: 
 
+1. Wash meat in cold water, cut into 1" pieces and and place in a large soup pot with 14 cups cold water and 1 Tbsp salt. Bring it to a boil and remove the foam crud as soon as it boils (if you wait, it will be hard to get rid of the crud as it integrates into the broth and you'd have to strain it later). Reduce heat, partially cover and simmer 45 minutes - 1 hr, periodically skimming off any crud that rises to the top.
+
+2. Grate beets on the large grater holes (a food processor works amazingly well). Place them in a large heavy-bottom skillet with 4 Tbsp olive oil and 1 Tbsp vinegar and saute for 5 minutes, then reduce heat to med/low and add 1 Tbsp sugar and 2 Tbsp tomato sauce Mix thoroughly and saute until starting to soften, stirring occasionally (about 10 min). Remove from pan and set aside.
+
+3. In the same skillet (no need to wash it), Saute onion in 1 Tbsp butter for 2 min. Add grated carrot and sautee another 5 min or until softened, adding more oil if it seems too dry.
+
+4. Once the meat has been cooking at least 45 min, place sliced potatoes into the soup pot and cook 10 min, then add cabbage, sauteed beets, onion & carrot, and chopped tomatoes. Cook another 10 minutes or until potatoes can be easily pierced with a fork.
+
+5. Add 2 bay leaves, ¼ tsp pepper, and more salt to taste (I added another ½ tsp salt).
+
+6. Chop parsley and pressed garlic then stir them into the soup pot, immediately cover and remove from heat. Let the pot rest covered for 20 minutes for the flavors to meld.
+
 ----
 
-Tags: 
+Tags: grandma,beets,delicious
 
 ----
 
@@ -26,8 +65,8 @@ Russianname: Борщ
 
 ----
 
-Preptime: 
+Preptime: 45
 
 ----
 
-Cooktime: 
+Cooktime: 180

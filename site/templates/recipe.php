@@ -9,23 +9,38 @@
       <?php endif ?>
     </h1>
 
-    <p><?php echo $page->blurb()->html() ?></p>
+    <?php echo $page->blurb()->kirbytext() ?>
 
-    <ul class="meta cf">
-      <li><b>Year:</b> <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date('Y', 'year') ?></time></li>
-      <li><b>Tags:</b> <?php echo $page->tags() ?></li>
+    <?php if (trim($page->history())): ?>
+      <h2 id="history">History</h2>
+      <?php echo $page->history()->kirbytext() ?>
+    <?php endif ?>
+
+    <h2 id="ingredients">Ingredients</h2>
+
+    <ul>
+    <?php foreach (explode("\n", $page->ingredients()) as $line): ?>
+      <?php if(!trim($line)) { continue; } ?>
+      <li><?php echo $line ?></li>
+    <?php endforeach ?>
     </ul>
 
-    <div class="text">
-      <?php echo $page->text()->kirbytext() ?>
 
-      <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
-      <figure>
-        <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
-      </figure>
-      <?php endforeach ?>
-    </div>
+    <h2 id="instructions">Instructions</h2>
 
+    <?php echo $page->instructions()->kirbytext() ?>
+
+    <?php if (trim($page->tags())): ?>
+      # <?php echo join(', ', explode(',', $page->tags()->__toString())) ?>
+    <?php endif ?>
+
+    <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
+    <figure>
+      <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
+    </figure>
+    <?php endforeach ?>
+
+    <?php /*
     <nav class="nextprev cf" role="navigation">
       <?php if($prev = $page->prevVisible()): ?>
       <a class="prev" href="<?php echo $prev->url() ?>">&larr; previous</a>
@@ -34,6 +49,7 @@
       <a class="next" href="<?php echo $next->url() ?>">next &rarr;</a>
       <?php endif ?>
     </nav>
+    */ ?>
 
   </main>
 

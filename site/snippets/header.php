@@ -9,14 +9,16 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
+  <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
   <?php echo css('assets/css/main.css') ?>
 
 </head>
 <body>
 
-  <header class="header cf" role="banner">
+  <header>
     <a class="logo" href="<?php echo url() ?>">
-      GRIN RECIPES
+      <?php echo $site->title()->html() ?>
     </a>
-    <?php snippet('menu') ?>
+    <?php //snippet('menu') ?>
   </header>
