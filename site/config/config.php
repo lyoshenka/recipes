@@ -30,3 +30,5 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 */
 
 c::set('autopublish.templates', array('recipe'));
+
+c::set('thumbs.driver', 'im');
