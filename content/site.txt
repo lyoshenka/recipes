@@ -1,4 +1,4 @@
-Title: Grin Family Recipes
+Title: Our Family Recipes
 
 ----
 
@@ -6,4 +6,12 @@ Author: Grin
 
 ----
 
-Description: A collection of family recipes
+Description: A collection of our family recipes
+
+----
+
+Keywords: 
+
+----
+
+Copyright: 

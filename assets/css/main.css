@@ -216,3 +216,7 @@ h3 {
   transform: scaleX(1);
   -webkit-transform: scaleX(1);
 }
+
+.clickable {
+  cursor: pointer;
+}

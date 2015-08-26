@@ -23,10 +23,20 @@ fields:
     label: Blurb
     type:  textarea
     help:  Short description of the meal (2-3 sentences max)
+    width: 1/2
+  blurbRussian:
+    type: textArea
+    label: Описание
+    width: 1/2
   history:
     label: History
     type:  textarea
     help:  Where this meal comes from, why it's special to us
+    width: 1/2
+  historyRussian:
+    label: История
+    type: textarea
+    width: 1/2
 
   cooking:
     label: Cooking
@@ -34,9 +44,19 @@ fields:
   ingredients:
     label: Ingredients (one per line)
     type:  textarea
+    width: 1/2
+  ingredientsRussian:
+    label: Ингредиенты
+    type: textarea
+    width: 1/2
   instructions:
     label: Cooking Instructions
     type:  textarea
+    width: 1/2
+  instructionsRussian:
+    label: Способ приготовления
+    type: textarea
+    width: 1/2
 
   extras: 
     label: Extras

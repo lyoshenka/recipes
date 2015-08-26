@@ -7,7 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - recipes/chicken-cutlets-kuriniye-kotlety
+  - home
   - recipes/borscht
   - recipes/pickled-cabbage
   - recipes/vinaigrette-salad
-  - recipes/sirniki
