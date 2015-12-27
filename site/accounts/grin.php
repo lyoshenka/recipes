@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - recipes/chicken-cutlets-kuriniye-kotlety
-  - home
-  - recipes/borscht
-  - recipes/pickled-cabbage
-  - recipes/vinaigrette-salad
+  - recipes/beet-salad
+  - recipes/farmers-cheese-fritters-sirniki
+  - recipes/yam-cheesecake
+  - recipes/stuffed-cabbage-leaves
+  - recipes/farmer-s-cheese
